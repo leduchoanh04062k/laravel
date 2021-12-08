@@ -1,0 +1,28 @@
+{
+	"processing": "Đang xử lý...",
+	"sLengthMenu": " _MENU_ Bản ghi hiển thị",
+	"zeroRecords": "Không tìm thấy dữ liệu phù hợp",
+	"info": "Danh sách dữ liệu (_TOTAL_ bản ghi) ",
+	"infoEmpty": "Danh sách dữ liệu (0 bản ghi)",
+	"infoFiltered": "",
+	"aria": {
+		"sortAscending": ": Sắp xếp thứ tự tăng dần",
+		"sortDescending": ": Sắp xếp thứ tự giảm dần"
+	},
+	"select": {
+		"rows": {
+			"1": "1 dòng đang được chọn",
+			"_": "%d dòng đang được chọn"
+		}
+	},
+	"emptyTable": "Không có dữ liệu",
+	"loadingRecords": "Đang tải...",
+	"paginate": {
+		"first": "Đầu tiên",
+		"last": "Cuối cùng",
+		"next": "Sau",
+		"previous": "Trước"
+	},
+	"search": "Tìm kiếm:",
+	"zeroRecords": "Không tìm thấy kết quả"
+}  

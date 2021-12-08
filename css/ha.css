@@ -1,0 +1,123 @@
+/*    css for typeahead search*/
+.typeahead.dropdown-menu {
+	max-height: 200px;
+	overflow-y: auto;
+}
+.dataTables_wrapper {
+	position: static;
+	clear: both;
+	zoom: 1;
+}
+/* css for autocomplete */
+.ui-autocomplete {
+	max-height: 300px;
+	max-width: 65%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-right: 20px;
+
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	float: left;
+	display: none;
+	min-width: 160px;
+	_width: 160px;
+	padding: 4px 0;
+	margin: 2px 0 0 0;
+	list-style: none;
+	background-color: #ffffff;
+	border-color: #ccc;
+	border-color: rgba(0, 0, 0, 0.2);
+	border-style: solid;
+	border-width: 1px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	*border-right-width: 2px;
+	*border-bottom-width: 2px;
+
+	.ui-menu-item > a.ui-corner-all {
+		display: block;
+		padding: 3px 15px;
+		clear: both;
+		font-weight: normal;
+		line-height: 18px;
+		color: #555555;
+		white-space: nowrap;
+
+		&.ui-state-hover,
+		&.ui-state-active {
+			color: #ffffff;
+			text-decoration: none;
+			background-color: #0088cc;
+			border-radius: 0px;
+			-webkit-border-radius: 0px;
+			-moz-border-radius: 0px;
+			background-image: none;
+		}
+	}
+}
+#autotimkiemhanghoa {
+	position: relative;
+	z-index: 10000;
+}
+.ui-autocomplete {
+	z-index: 9999 !important;
+}
+
+.ui-helper-hidden-accessible { position: absolute; left:-999em; }
+
+.select2-container .select2-selection--single {
+	height: 40px;
+}
+.select2-container--default
+.select2-selection--single
+.select2-selection__rendered {
+	color: #495057!important;
+	line-height: calc(2.39375rem + 2px)-0.1rem!important;
+	padding-left: 0.75rem!important;
+	height: 100%!important;
+	display: flex!important;
+	align-items: center!important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 26px;
+	position: absolute;
+	top: 50%;
+	right: 1px;
+	transform: translateY(-50%);
+	width: 20px;
+}
+.select2-container--default .select2-selection--single {
+	border: 1px solid rgba(0, 0, 0, 0.15)!important;
+}
+.dataTables_filter {
+	display: none;
+}
+.typeahead {
+	width: 100%;
+}
+.typeahead img {
+	border-radius: 3px;
+}
+#themHangHoa .typeahead {
+	width: 28em;
+}
+div#data-table2_paginate{
+	float:none; 
+	text-align:center
+}
+#submitBanHang .typeahead li{
+	overflow: hidden!important;
+}
+#data-table3 .typeahead {
+	width: 30%;
+}
